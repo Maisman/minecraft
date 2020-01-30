@@ -1,0 +1,22 @@
+{
+  "group": "dimensional_dungeon",
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:dirt",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:dirt",
+      "data": 32767
+    },
+    {
+      "item": "minecraft:dirt",
+      "data": 32767
+    }
+  ],
+  "result": {
+    "item": "minecraft:grass",
+    "count": 3
+  }
+}
