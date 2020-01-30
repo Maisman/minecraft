@@ -12,7 +12,6 @@ import net.minecraft.item.Item;
 import net.minecraft.inventory.EntityEquipmentSlot;
 import net.minecraft.entity.ai.attributes.AttributeModifier;
 import net.minecraft.entity.SharedMonsterAttributes;
-import net.minecraft.creativetab.CreativeTabs;
 import net.minecraft.client.util.ITooltipFlag;
 import net.minecraft.client.renderer.block.model.ModelResourceLocation;
 import net.minecraft.block.state.IBlockState;
@@ -47,7 +46,7 @@ public class MCreatorRot extends Elementsdimensional_dungeon.ModElement {
 			maxStackSize = 64;
 			setUnlocalizedName("rot");
 			setRegistryName("rot");
-			setCreativeTab(CreativeTabs.COMBAT);
+			setCreativeTab(MCreatorNewWeapons.tab);
 		}
 
 		@Override

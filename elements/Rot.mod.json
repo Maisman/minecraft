@@ -7,7 +7,7 @@
     "customModelName": "Normal",
     "name": "Rot",
     "creativeTab": {
-      "value": "COMBAT"
+      "value": "CUSTOM:NewWeapons"
     },
     "stackSize": 64,
     "enchantability": 0,
