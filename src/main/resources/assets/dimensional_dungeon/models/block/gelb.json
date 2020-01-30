@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "dimensional_dungeon:blocks/gelb_m",
+    "particle": "dimensional_dungeon:blocks/gelb_m"
+  }
+}
