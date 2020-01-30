@@ -1,0 +1,37 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "Blau",
+      "type": "block",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "tile.blau.name": "Blau"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "dimensional_dungeon",
+    "modName": "Dimensional Dungeon",
+    "version": "1.0.0",
+    "author": "xyz",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "1.12.2",
+    "usesProFeatures": false,
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000105419
+}
