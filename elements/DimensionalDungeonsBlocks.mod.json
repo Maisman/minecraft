@@ -1,0 +1,11 @@
+{
+  "_fv": 5,
+  "_type": "tab",
+  "definition": {
+    "name": "Dimensional Dungeons Blocks",
+    "icon": {
+      "value": "CUSTOM:Darkium"
+    },
+    "showSearch": true
+  }
+}

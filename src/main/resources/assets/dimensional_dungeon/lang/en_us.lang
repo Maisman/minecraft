@@ -1,4 +1,5 @@
 item.emerald_toolspickaxe.name=Emerald_Tools Pickaxe
+itemGroup.tabdimensionaldungeonsblocks=Dimensional Dungeons Blocks
 item.emerald_armorarmorboots.name=Emerald_Armor Boots
 item.emerald_armorarmorbody.name=Emerald_Armor Chestplate
 item.emerald_toolsaxe.name=Emerald_Tools Axe
@@ -9,4 +10,5 @@ item.emerald_toolsshovel.name=Emerald_Tools Shovel
 tile.gelb.name=GELB
 itemGroup.tabnewweapons=New Weapons
 item.emerald_toolssword.name=Emerald_Tools Sword
+tile.darkium.name=Darkium
 item.emerald_armorarmorlegs.name=Emerald_Armor Leggings
