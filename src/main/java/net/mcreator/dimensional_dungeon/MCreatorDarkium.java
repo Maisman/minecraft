@@ -135,7 +135,7 @@ public class MCreatorDarkium extends Elementsdimensional_dungeon.ModElement {
 				$_dependencies.put("y", y);
 				$_dependencies.put("z", z);
 				$_dependencies.put("world", world);
-				MCreatorDimensionalDungeonsBlocksOnBlockRightClicked.executeProcedure($_dependencies);
+				MCreatorDarkiumOnBlockRightClicked.executeProcedure($_dependencies);
 			}
 			return true;
 		}
