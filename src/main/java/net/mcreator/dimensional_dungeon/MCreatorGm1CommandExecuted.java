@@ -41,46 +41,52 @@ public class MCreatorGm1CommandExecuted extends Elementsdimensional_dungeon.ModE
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
-		if (!world.isRemote && world.getMinecraftServer() != null) {
-			world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
-				@Override
-				public String getName() {
-					return "";
-				}
+		if (((entity instanceof EntityPlayer) ? ((EntityPlayer) entity).capabilities.isCreativeMode : false)) {
+			if (entity instanceof EntityPlayer && !world.isRemote) {
+				((EntityPlayer) entity).sendStatusMessage(new TextComponentString("You are already in Crative mode!"), (false));
+			}
+		} else {
+			if (!world.isRemote && world.getMinecraftServer() != null) {
+				world.getMinecraftServer().getCommandManager().executeCommand(new ICommandSender() {
+					@Override
+					public String getName() {
+						return "";
+					}
 
-				@Override
-				public boolean canUseCommand(int permission, String command) {
-					return true;
-				}
+					@Override
+					public boolean canUseCommand(int permission, String command) {
+						return true;
+					}
 
-				@Override
-				public World getEntityWorld() {
-					return world;
-				}
+					@Override
+					public World getEntityWorld() {
+						return world;
+					}
 
-				@Override
-				public MinecraftServer getServer() {
-					return world.getMinecraftServer();
-				}
+					@Override
+					public MinecraftServer getServer() {
+						return world.getMinecraftServer();
+					}
 
-				@Override
-				public boolean sendCommandFeedback() {
-					return false;
-				}
+					@Override
+					public boolean sendCommandFeedback() {
+						return false;
+					}
 
-				@Override
-				public BlockPos getPosition() {
-					return new BlockPos((int) x, (int) y, (int) z);
-				}
+					@Override
+					public BlockPos getPosition() {
+						return new BlockPos((int) x, (int) y, (int) z);
+					}
 
-				@Override
-				public Vec3d getPositionVector() {
-					return new Vec3d(x, y, z);
-				}
-			}, "gamemode 1 @p");
-		}
-		if (entity instanceof EntityPlayer && !world.isRemote) {
-			((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Changed gamemode to Creative!"), (false));
+					@Override
+					public Vec3d getPositionVector() {
+						return new Vec3d(x, y, z);
+					}
+				}, "gamemode 1 @p");
+			}
+			if (entity instanceof EntityPlayer && !world.isRemote) {
+				((EntityPlayer) entity).sendStatusMessage(new TextComponentString("Changed gamemode to Creative!"), (false));
+			}
 		}
 	}
 }

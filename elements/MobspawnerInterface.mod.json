@@ -1,0 +1,28 @@
+{
+  "_fv": 5,
+  "_type": "gui",
+  "definition": {
+    "type": 0,
+    "width": 352,
+    "height": 332,
+    "renderBgLayer": false,
+    "containerBlock": "<none>",
+    "components": [
+      {
+        "type": "button",
+        "data": {
+          "text": "Summon Smith",
+          "onClick": {
+            "name": "WeaponsSmith"
+          },
+          "width": 240,
+          "height": 40,
+          "name": "Summon Smith",
+          "x": 31,
+          "y": 30
+        }
+      }
+    ],
+    "inventories": []
+  }
+}

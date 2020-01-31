@@ -119,11 +119,15 @@ public class Elementsdimensional_dungeon implements IFuelHandler, IWorldGenerato
 	public static class GuiHandler implements IGuiHandler {
 		@Override
 		public Object getServerGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorMobspawnerInterface.GUIID)
+				return new MCreatorMobspawnerInterface.GuiContainerMod(world, x, y, z, player);
 			return null;
 		}
 
 		@Override
 		public Object getClientGuiElement(int id, EntityPlayer player, World world, int x, int y, int z) {
+			if (id == MCreatorMobspawnerInterface.GUIID)
+				return new MCreatorMobspawnerInterface.GuiWindow(world, x, y, z, player);
 			return null;
 		}
 	}
