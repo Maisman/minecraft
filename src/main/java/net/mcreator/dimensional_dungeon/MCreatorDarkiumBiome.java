@@ -96,7 +96,7 @@ public class MCreatorDarkiumBiome extends Elementsdimensional_dungeon.ModElement
 
 		@Override
 		public boolean generate(World world, Random rand, BlockPos position) {
-			int height = rand.nextInt(5) + 18;
+			int height = rand.nextInt(5) + 24;
 			boolean spawnTree = true;
 			if (position.getY() >= 1 && position.getY() + height + 1 <= world.getHeight()) {
 				for (int j = position.getY(); j <= position.getY() + 1 + height; j++) {

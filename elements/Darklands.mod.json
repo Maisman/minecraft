@@ -56,7 +56,7 @@
     "hasWeather": true,
     "isDark": true,
     "doesWaterVaporize": true,
-    "sleepResult": "ALLOW",
+    "sleepResult": "BED_EXPLODES",
     "hasSkyLight": false,
     "imitateOverworldBehaviour": false,
     "dimensionMusic": {

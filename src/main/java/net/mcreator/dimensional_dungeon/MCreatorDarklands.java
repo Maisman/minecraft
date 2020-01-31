@@ -151,7 +151,7 @@ public class MCreatorDarklands extends Elementsdimensional_dungeon.ModElement {
 
 		@Override
 		public WorldSleepResult canSleepAt(EntityPlayer player, BlockPos pos) {
-			return WorldSleepResult.ALLOW;
+			return WorldSleepResult.BED_EXPLODES;
 		}
 
 		@Override

@@ -12,7 +12,7 @@
     "generateLakes": false,
     "treeType": 1,
     "vanillaTreeType": "Default",
-    "minHeight": 18,
+    "minHeight": 24,
     "spawnVines": false,
     "treeVines": {
       "value": "Blocks.VINE"
