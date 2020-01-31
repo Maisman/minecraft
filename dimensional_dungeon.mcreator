@@ -488,13 +488,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DarkIronBlockDestroyedByPlayer",
+      "type": "procedure",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkIron",
+      "type": "block",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "PlayerDied",
+      "type": "procedure",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "PlayerStackDamage",
+      "type": "procedure",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "DestroyedDarkIron",
+      "type": "number",
+      "scope": "map",
+      "value": "0"
+    },
+    {
+      "name": "damage",
+      "type": "number",
+      "scope": "map",
+      "value": "2"
+    }
+  ],
   "sound_elements": [],
   "language_map": {
     "en_us": {
       "item.emerald_toolspickaxe.name": "Emerald_Tools Pickaxe",
+      "tile.darkiron.name": "Dark Iron",
       "tile.evendarkerdarkium.name": "Even Darker Darkium",
       "itemGroup.tabdimensionaldungeonsblocks": "Dimensional Dungeons Blocks",
       "item.emerald_armorarmorboots.name": "Emerald_Armor Boots",

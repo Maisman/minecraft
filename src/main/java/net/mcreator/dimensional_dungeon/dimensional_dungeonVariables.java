@@ -14,6 +14,8 @@ import net.minecraft.client.Minecraft;
 public class dimensional_dungeonVariables {
 	public static class MapVariables extends WorldSavedData {
 		public static final String DATA_NAME = "dimensional_dungeon_mapvars";
+		public double DestroyedDarkIron = 0;
+		public double damage = 2;
 
 		public MapVariables() {
 			super(DATA_NAME);
@@ -25,10 +27,14 @@ public class dimensional_dungeonVariables {
 
 		@Override
 		public void readFromNBT(NBTTagCompound nbt) {
+			DestroyedDarkIron = nbt.getDouble("DestroyedDarkIron");
+			damage = nbt.getDouble("damage");
 		}
 
 		@Override
 		public NBTTagCompound writeToNBT(NBTTagCompound nbt) {
+			nbt.setDouble("DestroyedDarkIron", DestroyedDarkIron);
+			nbt.setDouble("damage", damage);
 			return nbt;
 		}
 
