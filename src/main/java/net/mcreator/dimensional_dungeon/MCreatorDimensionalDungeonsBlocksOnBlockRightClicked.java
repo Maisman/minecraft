@@ -31,6 +31,10 @@ public class MCreatorDimensionalDungeonsBlocksOnBlockRightClicked extends Elemen
 		int y = (int) dependencies.get("y");
 		int z = (int) dependencies.get("z");
 		World world = (World) dependencies.get("world");
+		double x = 0;
+		double y = 0;
+		double z = 0;
+		String world = "";
 		if (!world.isRemote) {
 			Entity entityToSpawn = new EntityLightningBolt(world);
 			if (entityToSpawn != null) {

@@ -18,7 +18,7 @@ public class MCreatorNewWeapons extends Elementsdimensional_dungeon.ModElement {
 			@SideOnly(Side.CLIENT)
 			@Override
 			public ItemStack getTabIconItem() {
-				return new ItemStack(MCreatorRot.block, (int) (1));
+				return new ItemStack(MCreatorEmerald_ToolsSword.block, (int) (1));
 			}
 
 			@SideOnly(Side.CLIENT)

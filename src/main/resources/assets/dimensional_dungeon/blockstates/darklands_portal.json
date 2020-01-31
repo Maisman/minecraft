@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "axis=z": {
+      "model": "dimensional_dungeon:darklands_portal_ew"
+    },
+    "axis=x": {
+      "model": "dimensional_dungeon:darklands_portal_ns"
+    },
+    "inventory": {
+      "model": "dimensional_dungeon:darklands_portal_ns"
+    }
+  }
+}

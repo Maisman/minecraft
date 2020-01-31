@@ -1,4 +1,5 @@
 item.emerald_toolspickaxe.name=Emerald_Tools Pickaxe
+advancements.haveadarkday.descr=Create a Portal to the Darklands and enter it! 
 tile.evendarkerdarkium.name=Even Darker Darkium
 itemGroup.tabdimensionaldungeonsblocks=Dimensional Dungeons Blocks
 item.emerald_armorarmorboots.name=Emerald_Armor Boots
@@ -6,8 +7,10 @@ item.emerald_armorarmorbody.name=Emerald_Armor Chestplate
 item.emerald_toolsaxe.name=Emerald_Tools Axe
 item.emerald_toolshoe.name=Emerald_Tools Hoe
 item.emerald_armorarmorhelmet.name=Emerald_Armor Helmet
+advancements.haveadarkday.title=Have A Dark Day
 item.mobspawner.name=Mob Spawner Wand
 item.emerald_toolsshovel.name=Emerald_Tools Shovel
+item.darklands.name=Darklands Portal Igniter
 tile.gelb.name=GELB
 itemGroup.tabnewweapons=New Weapons
 item.emerald_toolssword.name=Emerald_Tools Sword

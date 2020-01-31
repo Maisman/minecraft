@@ -1,0 +1,29 @@
+{
+  "display": {
+    "background": "minecraft:textures/blocks/stone.png",
+    "icon": {
+      "item": "dimensional_dungeon:evendarkerdarkium"
+    },
+    "title": {
+      "translate": "advancements.haveadarkday.title"
+    },
+    "description": {
+      "translate": "advancements.haveadarkday.descr"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "criteria": {
+    "haveadarkday": {
+      "trigger": "minecraft:changed_dimension",
+      "conditions": {
+        "to": "dimensional_dungeon:darklands"
+      }
+    }
+  },
+  "rewards": {
+    "experience": 10
+  }
+}
