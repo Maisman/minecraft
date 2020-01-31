@@ -54,12 +54,12 @@ public class MCreatorGm1 extends Elementsdimensional_dungeon.ModElement {
 
 		@Override
 		public String getName() {
-			return "gm 1";
+			return "gm1";
 		}
 
 		@Override
 		public String getUsage(ICommandSender var1) {
-			return "/gm 1 [<arguments>]";
+			return "/gm1 [<arguments>]";
 		}
 
 		@Override
