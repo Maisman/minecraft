@@ -8,7 +8,5 @@ Thats the stuff we Added:
 - Added "New Weapons"[Creative Tab]
 - Added Emerald Armor
 - Added Emerlad Tools
-- Added Command "gm1"
-- Added Command "gm0"
-*error Blau no item hold texture*
-
+- Added Command gm1
+- Added Command gm0
