@@ -57,7 +57,7 @@ public class MCreatorDarkium extends Elementsdimensional_dungeon.ModElement {
 			return;
 		for (int i = 0; i < 3; i++) {
 			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(3) + 1;
+			int y = random.nextInt(5) + 1;
 			int z = chunkZ + random.nextInt(16);
 			(new WorldGenMinable(block.getDefaultState(), 9, new com.google.common.base.Predicate<IBlockState>() {
 				public boolean apply(IBlockState blockAt) {
