@@ -4,22 +4,6 @@
   },
   "mod_elements": [
     {
-      "name": "Blau",
-      "type": "block",
-      "sortid": 1,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
-      "name": "Rot",
-      "type": "item",
-      "sortid": 2,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "NewWeapons",
       "type": "tab",
       "sortid": 3,
@@ -348,10 +332,8 @@
       "item.emerald_toolsaxe.name": "Emerald_Tools Axe",
       "item.emerald_toolshoe.name": "Emerald_Tools Hoe",
       "item.emerald_armorarmorhelmet.name": "Emerald_Armor Helmet",
-      "item.rot.name": "Rot",
       "item.mobspawner.name": "Mob Spawner Wand",
       "item.emerald_toolsshovel.name": "Emerald_Tools Shovel",
-      "tile.blau.name": "Blau",
       "tile.gelb.name": "GELB",
       "itemGroup.tabnewweapons": "New Weapons",
       "item.emerald_toolssword.name": "Emerald_Tools Sword",
