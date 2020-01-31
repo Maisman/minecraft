@@ -12,14 +12,6 @@
       "ids": {}
     },
     {
-      "name": "GELB",
-      "type": "block",
-      "sortid": 4,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "Gm1CommandExecuted",
       "type": "procedure",
       "sortid": 5,
@@ -350,34 +342,6 @@
       }
     },
     {
-      "name": "DimensionalDungeonsBlocksOnBlockRightClicked",
-      "type": "procedure",
-      "sortid": 26,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "int"
-          },
-          {
-            "name": "y",
-            "type": "int"
-          },
-          {
-            "name": "z",
-            "type": "int"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      }
-    },
-    {
       "name": "Darkium",
       "type": "block",
       "sortid": 26,
@@ -424,6 +388,34 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DarkiumOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "int"
+          },
+          {
+            "name": "y",
+            "type": "int"
+          },
+          {
+            "name": "z",
+            "type": "int"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [],
@@ -440,7 +432,6 @@
       "item.emerald_armorarmorhelmet.name": "Emerald_Armor Helmet",
       "item.mobspawner.name": "Mob Spawner Wand",
       "item.emerald_toolsshovel.name": "Emerald_Tools Shovel",
-      "tile.gelb.name": "GELB",
       "itemGroup.tabnewweapons": "New Weapons",
       "item.emerald_toolssword.name": "Emerald_Tools Sword",
       "tile.darkium.name": "Darkium",

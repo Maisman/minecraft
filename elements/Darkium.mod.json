@@ -71,7 +71,7 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "onRightClicked": {
-      "name": "DimensionalDungeonsBlocksOnBlockRightClicked"
+      "name": "DarkiumOnBlockRightClicked"
     },
     "onStartToDestroy": {
       "name": "DimensionalDungeonsBlocksPlayerStartsToDestroy"

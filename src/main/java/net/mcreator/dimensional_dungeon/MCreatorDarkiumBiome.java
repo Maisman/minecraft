@@ -14,8 +14,6 @@ import net.minecraft.util.EnumFacing;
 import net.minecraft.init.Blocks;
 import net.minecraft.entity.monster.EntityCreeper;
 import net.minecraft.entity.monster.EntityCaveSpider;
-import net.minecraft.entity.item.EntityTNTPrimed;
-import net.minecraft.entity.item.EntityExpBottle;
 import net.minecraft.block.state.IBlockState;
 import net.minecraft.block.material.Material;
 import net.minecraft.block.Block;
@@ -65,8 +63,6 @@ public class MCreatorDarkiumBiome extends Elementsdimensional_dungeon.ModElement
 			this.spawnableCaveCreatureList.clear();
 			this.spawnableCreatureList.add(new SpawnListEntry(EntityCaveSpider.class, 40, 1, 5));
 			this.spawnableCreatureList.add(new SpawnListEntry(EntityCreeper.class, 40, 1, 5));
-			this.spawnableCreatureList.add(new SpawnListEntry(EntityExpBottle.class, 40, 1, 5));
-			this.spawnableCreatureList.add(new SpawnListEntry(EntityTNTPrimed.class, 40, 1, 5));
 		}
 
 		@SideOnly(Side.CLIENT)
