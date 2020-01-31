@@ -5,98 +5,53 @@
     "type": "Chest",
     "pools": [
       {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
+        "minrolls": 5,
+        "maxrolls": 7,
+        "minbonusrolls": 2,
         "maxbonusrolls": 4,
-        "hasbonusrolls": false,
+        "hasbonusrolls": true,
         "entries": [
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:Emerald_ToolsSword"
             },
-            "weight": 1
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 6,
-        "hasbonusrolls": false,
-        "entries": [
+            "weight": 2
+          },
           {
             "type": "item",
             "item": {
               "value": "Items.ENDER_PEARL"
             },
-            "weight": 1
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+            "weight": 7
+          },
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:Emerald_ToolsAxe"
             },
-            "weight": 1
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+            "weight": 4
+          },
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:Emerald_ToolsPickaxe"
             },
-            "weight": 1
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
-          {
-            "type": "item",
-            "item": {
-              "value": "CUSTOM:EvenDarkerDarkium"
-            },
-            "weight": 1
-          }
-        ]
-      },
-      {
-        "minrolls": 1,
-        "maxrolls": 1,
-        "minbonusrolls": 1,
-        "maxbonusrolls": 1,
-        "hasbonusrolls": false,
-        "entries": [
+            "weight": 2
+          },
           {
             "type": "item",
             "item": {
               "value": "CUSTOM:Darkium"
             },
-            "weight": 1
+            "weight": 3
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EvenDarkerDarkium"
+            },
+            "weight": 2
           }
         ]
       }

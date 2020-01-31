@@ -1,0 +1,34 @@
+{
+  "_fv": 5,
+  "_type": "loottable",
+  "definition": {
+    "type": "Chest",
+    "pools": [
+      {
+        "minrolls": 3,
+        "maxrolls": 4,
+        "minbonusrolls": 3,
+        "maxbonusrolls": 6,
+        "hasbonusrolls": false,
+        "entries": [
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:EvenDarkerDarkium"
+            },
+            "weight": 90
+          },
+          {
+            "type": "item",
+            "item": {
+              "value": "CUSTOM:Darkium"
+            },
+            "weight": 10
+          }
+        ]
+      }
+    ],
+    "name": "chests/struktur",
+    "namespace": "mod"
+  }
+}

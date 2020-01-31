@@ -1,5 +1,6 @@
 {
   "id_map": {
+    "DIMENSION": 1,
     "GUI": 1
   },
   "mod_elements": [
@@ -469,6 +470,24 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "Darklands",
+      "type": "dimension",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {
+        "1": 1
+      }
+    },
+    {
+      "name": "GutLoot",
+      "type": "loottable",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -485,6 +504,7 @@
       "item.emerald_armorarmorhelmet.name": "Emerald_Armor Helmet",
       "item.mobspawner.name": "Mob Spawner Wand",
       "item.emerald_toolsshovel.name": "Emerald_Tools Shovel",
+      "item.darklands.name": "Darklands Portal Igniter",
       "itemGroup.tabnewweapons": "New Weapons",
       "item.emerald_toolssword.name": "Emerald_Tools Sword",
       "tile.darkium.name": "Darkium",
