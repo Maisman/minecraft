@@ -6,3 +6,9 @@ Thats the stuff we Added:
 - Added "Blau"[block]
 - Added "Rot"[sword]
 - Added "New Weapons"[Creative Tab]
+- Added Emerald Armor
+- Added Emerlad Tools
+- Added Command "gm1"
+- Added Command "gm0"
+*error Blau no item hold texture*
+
