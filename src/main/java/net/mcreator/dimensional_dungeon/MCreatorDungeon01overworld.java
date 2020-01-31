@@ -57,16 +57,16 @@ public class MCreatorDungeon01overworld extends Elementsdimensional_dungeon.ModE
 					height--;
 				}
 			}
-			int j = height - 1;
+			int j = height + random.nextInt(50) + 16;
 			if (world.isRemote)
 				return;
 			Template template = ((WorldServer) world).getStructureTemplateManager().getTemplate(world.getMinecraftServer(),
-					new ResourceLocation("dimensional_dungeon", "dungeon01"));
+					new ResourceLocation("dimensional_dungeon", "skydungeon"));
 			if (template == null)
 				return;
 			Rotation rotation = Rotation.values()[random.nextInt(3)];
 			Mirror mirror = Mirror.values()[random.nextInt(2)];
-			BlockPos spawnTo = new BlockPos(i, j + 1, k);
+			BlockPos spawnTo = new BlockPos(i, j + 3, k);
 			IBlockState iblockstate = world.getBlockState(spawnTo);
 			world.notifyBlockUpdate(spawnTo, iblockstate, iblockstate, 3);
 			template.addBlocksToWorldChunk(world, spawnTo, new PlacementSettings().setRotation(rotation).setMirror(mirror).setChunk((ChunkPos) null)

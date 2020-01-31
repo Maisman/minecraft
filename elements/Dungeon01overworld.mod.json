@@ -2,12 +2,12 @@
   "_fv": 5,
   "_type": "structure",
   "definition": {
-    "structure": "dungeon01",
+    "structure": "skydungeon",
     "randomlyRotateStructure": true,
     "surfaceDetectionType": "First motion blocking block",
     "spawnProbability": 10000,
-    "spawnLocation": "Ground",
-    "spawnHeightOffset": 1,
+    "spawnLocation": "Air",
+    "spawnHeightOffset": 3,
     "spawnWorldTypes": [
       "Surface"
     ],

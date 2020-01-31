@@ -423,6 +423,43 @@
       "sortid": 29,
       "compiles": true,
       "locked_code": false,
+      "ids": {},
+      "registry_name": "skydungeon01overworld"
+    },
+    {
+      "name": "Loottabletest4skydungeon01",
+      "type": "loottable",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "Gm3CommandExecuted",
+      "type": "procedure",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Gm3",
+      "type": "command",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
       "ids": {}
     }
   ],
