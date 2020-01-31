@@ -1,0 +1,81 @@
+{
+  "_fv": 5,
+  "_type": "biome",
+  "definition": {
+    "name": "Darkium Biome",
+    "groundBlock": {
+      "value": "CUSTOM:Darkium"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:EvenDarkerDarkium"
+    },
+    "generateLakes": false,
+    "treeType": 1,
+    "vanillaTreeType": "Default",
+    "minHeight": 18,
+    "spawnVines": false,
+    "treeVines": {
+      "value": "Blocks.VINE"
+    },
+    "treeStem": {
+      "value": "CUSTOM:EvenDarkerDarkium"
+    },
+    "treeBranch": {
+      "value": "CUSTOM:Darkium"
+    },
+    "treeFruits": {
+      "value": "CUSTOM:Darkium"
+    },
+    "customColors": true,
+    "airColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13261999,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -13434829,
+      "falpha": 0.0
+    },
+    "treesPerChunk": 1,
+    "grassPerChunk": 0,
+    "flowersPerChunk": 0,
+    "mushroomsPerChunk": 4,
+    "bigMushroomsChunk": 2,
+    "sandPathcesPerChunk": 1,
+    "gravelPatchesPerChunk": 3,
+    "reedsPerChunk": 1,
+    "cactiPerChunk": 0,
+    "deadBushesPerChunk": 4,
+    "rainingPossibility": 0.0,
+    "temperature": 0.59,
+    "baseHeight": 0.1,
+    "heightVariation": 0.23,
+    "spawnBiome": false,
+    "biomeWeight": 10,
+    "biomeType": "WARM",
+    "biomeCategory": "NONE",
+    "parent": {
+      "value": "void"
+    },
+    "biomeDictionaryTypes": [
+      "HOT"
+    ],
+    "spawnList": [
+      {
+        "value": "EntityCaveSpider"
+      },
+      {
+        "value": "EntityCreeper"
+      },
+      {
+        "value": "EntityExpBottle"
+      },
+      {
+        "value": "EntityTNTPrimed"
+      }
+    ]
+  }
+}

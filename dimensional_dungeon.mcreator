@@ -392,6 +392,38 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "EvenDarkerDarkiumEntityWalksOnTheBlock",
+      "type": "procedure",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EvenDarkerDarkium",
+      "type": "block",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkiumBiome",
+      "type": "biome",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [],
@@ -399,6 +431,7 @@
   "language_map": {
     "en_us": {
       "item.emerald_toolspickaxe.name": "Emerald_Tools Pickaxe",
+      "tile.evendarkerdarkium.name": "Even Darker Darkium",
       "itemGroup.tabdimensionaldungeonsblocks": "Dimensional Dungeons Blocks",
       "item.emerald_armorarmorboots.name": "Emerald_Armor Boots",
       "item.emerald_armorarmorbody.name": "Emerald_Armor Chestplate",
