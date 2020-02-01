@@ -598,6 +598,86 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "DarkPickaxe",
+      "type": "tool",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkAxe",
+      "type": "tool",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkSword",
+      "type": "tool",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkShovel",
+      "type": "tool",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkHoe",
+      "type": "tool",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkAxeRecipe",
+      "type": "recipe",
+      "sortid": 47,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkSwordRecipe",
+      "type": "recipe",
+      "sortid": 48,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkShovelRecipe",
+      "type": "recipe",
+      "sortid": 49,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkHoeRecipe",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -617,6 +697,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
+      "item.darkaxe.name": "Dark Axe",
+      "item.darkhoe.name": "Dark Hoe",
       "item.emerald_toolspickaxe.name": "Emerald_Tools Pickaxe",
       "tile.darkiron.name": "Dark Iron Ore",
       "tile.evendarkerdarkium.name": "Even Darker Darkium",
@@ -625,10 +707,13 @@
       "item.emerald_armorarmorbody.name": "Emerald_Armor Chestplate",
       "item.emerald_toolsaxe.name": "Emerald_Tools Axe",
       "item.emerald_toolshoe.name": "Emerald_Tools Hoe",
+      "item.darkshovel.name": "Dark Shovel",
+      "item.darkpickaxe.name": "Dark Pickaxe",
       "item.emerald_armorarmorhelmet.name": "Emerald_Armor Helmet",
       "item.mobspawner.name": "Mob Spawner Wand",
       "item.emerald_toolsshovel.name": "Emerald_Tools Shovel",
       "item.darklands.name": "Darklands Portal Igniter",
+      "item.darksword.name": "Dark Sword",
       "tile.darkirondrop.name": "Dark Iron Ore",
       "itemGroup.tabnewweapons": "New Weapons",
       "item.emerald_toolssword.name": "Emerald_Tools Sword",
