@@ -5,18 +5,18 @@ import net.minecraft.util.DamageSource;
 import net.minecraft.entity.Entity;
 
 @Elementsdimensional_dungeon.ModElement.Tag
-public class MCreatorDarkIronBlockDestroyedByPlayer extends Elementsdimensional_dungeon.ModElement {
-	public MCreatorDarkIronBlockDestroyedByPlayer(Elementsdimensional_dungeon instance) {
-		super(instance, 36);
+public class MCreatorDarkIronBlockDestroyedByPlayerDrop extends Elementsdimensional_dungeon.ModElement {
+	public MCreatorDarkIronBlockDestroyedByPlayerDrop(Elementsdimensional_dungeon instance) {
+		super(instance, 39);
 	}
 
 	public static void executeProcedure(java.util.HashMap<String, Object> dependencies) {
 		if (dependencies.get("entity") == null) {
-			System.err.println("Failed to load dependency entity for procedure MCreatorDarkIronBlockDestroyedByPlayer!");
+			System.err.println("Failed to load dependency entity for procedure MCreatorDarkIronBlockDestroyedByPlayerDrop!");
 			return;
 		}
 		if (dependencies.get("world") == null) {
-			System.err.println("Failed to load dependency world for procedure MCreatorDarkIronBlockDestroyedByPlayer!");
+			System.err.println("Failed to load dependency world for procedure MCreatorDarkIronBlockDestroyedByPlayerDrop!");
 			return;
 		}
 		Entity entity = (Entity) dependencies.get("entity");
@@ -25,9 +25,9 @@ public class MCreatorDarkIronBlockDestroyedByPlayer extends Elementsdimensional_
 		dimensional_dungeonVariables.MapVariables.get(world).syncData(world);
 		if (((dimensional_dungeonVariables.MapVariables.get(world).DestroyedDarkIron) >= 10)) {
 			if (((dimensional_dungeonVariables.MapVariables.get(world).damage) <= 15)) {
-				dimensional_dungeonVariables.MapVariables.get(world).damage = (double) ((dimensional_dungeonVariables.MapVariables.get(world).damage) + 1);
+				dimensional_dungeonVariables.MapVariables.get(world).damage = (double) ((dimensional_dungeonVariables.MapVariables.get(world).DestroyedDarkIron) + 1);
 				dimensional_dungeonVariables.MapVariables.get(world).syncData(world);
-				entity.attackEntityFrom(DamageSource.GENERIC, (float) (dimensional_dungeonVariables.MapVariables.get(world).damage));
+				entity.attackEntityFrom(DamageSource.GENERIC, (float) (dimensional_dungeonVariables.MapVariables.get(world).DestroyedDarkIron));
 			}
 		}
 	}

@@ -536,6 +536,17 @@
       "locked_code": false,
       "ids": {},
       "metadata": {
+        "dependencies": []
+      }
+    },
+    {
+      "name": "DarkIronBlockDestroyedByPlayerDrop",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
         "dependencies": [
           {
             "name": "entity",
@@ -547,6 +558,46 @@
           }
         ]
       }
+    },
+    {
+      "name": "DarkIronDrop",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronIngotMobIsHitWithItem",
+      "type": "procedure",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DarkIronIngot",
+      "type": "item",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "DarkIronMelting",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
     }
   ],
   "variable_elements": [
@@ -567,7 +618,7 @@
   "language_map": {
     "en_us": {
       "item.emerald_toolspickaxe.name": "Emerald_Tools Pickaxe",
-      "tile.darkiron.name": "Dark Iron",
+      "tile.darkiron.name": "Dark Iron Ore",
       "tile.evendarkerdarkium.name": "Even Darker Darkium",
       "itemGroup.tabdimensionaldungeonsblocks": "Dimensional Dungeons Blocks",
       "item.emerald_armorarmorboots.name": "Emerald_Armor Boots",
@@ -578,9 +629,11 @@
       "item.mobspawner.name": "Mob Spawner Wand",
       "item.emerald_toolsshovel.name": "Emerald_Tools Shovel",
       "item.darklands.name": "Darklands Portal Igniter",
+      "tile.darkirondrop.name": "Dark Iron Ore",
       "itemGroup.tabnewweapons": "New Weapons",
       "item.emerald_toolssword.name": "Emerald_Tools Sword",
       "tile.darkium.name": "Darkium",
+      "item.darkironingot.name": "Dark Iron Ingot",
       "item.emerald_armorarmorlegs.name": "Emerald_Armor Leggings"
     }
   },

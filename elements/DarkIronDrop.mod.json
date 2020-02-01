@@ -3,15 +3,15 @@
   "_type": "block",
   "definition": {
     "texture": "darkironore",
-    "textureTop": "darkiron",
-    "textureLeft": "darkiron",
-    "textureFront": "darkiron",
-    "textureRight": "darkiron",
-    "textureBack": "darkiron",
+    "textureTop": "",
+    "textureLeft": "",
+    "textureFront": "",
+    "textureRight": "",
+    "textureBack": "",
     "renderType": 11,
     "customModelName": "Single texture",
     "rotationMode": 0,
-    "hasTransparency": true,
+    "hasTransparency": false,
     "transparencyType": "SOLID",
     "mx": 0.0,
     "my": 0.0,
@@ -31,9 +31,9 @@
     "destroyTool": "pickaxe",
     "affectedBySilkTouch": true,
     "customDrop": {
-      "value": "CUSTOM:DarkIronDrop"
+      "value": ""
     },
-    "dropAmount": 2,
+    "dropAmount": 1,
     "isBeaconBase": false,
     "enchantPowerBonus": 0.0,
     "plantsGrowOn": false,
@@ -71,19 +71,13 @@
     "inventoryComparatorPower": true,
     "inventoryOutSlotIDs": [],
     "onDestroyedByPlayer": {
-      "name": "DarkIronBlockDestroyedByPlayer"
+      "name": "DarkIronBlockDestroyedByPlayerDrop"
     },
-    "spawnWorldTypes": [
-      "CUSTOM:Darklands"
-    ],
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
-    "blocksToReplace": [
-      {
-        "value": "CUSTOM:EvenDarkerDarkium"
-      }
-    ],
-    "frequencyPerChunks": 13,
-    "frequencyOnChunk": 21,
+    "blocksToReplace": [],
+    "frequencyPerChunks": 10,
+    "frequencyOnChunk": 16,
     "minGenerateHeight": 0,
     "maxGenerateHeight": 64
   }

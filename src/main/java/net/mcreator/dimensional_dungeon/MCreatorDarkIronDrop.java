@@ -6,16 +6,11 @@ import net.minecraftforge.fml.common.registry.GameRegistry;
 import net.minecraftforge.client.model.ModelLoader;
 import net.minecraftforge.client.event.ModelRegistryEvent;
 
-import net.minecraft.world.gen.feature.WorldGenMinable;
-import net.minecraft.world.gen.IChunkGenerator;
-import net.minecraft.world.chunk.IChunkProvider;
 import net.minecraft.world.World;
 import net.minecraft.world.IBlockAccess;
 import net.minecraft.util.math.BlockPos;
-import net.minecraft.util.NonNullList;
 import net.minecraft.util.EnumParticleTypes;
 import net.minecraft.util.EnumFacing;
-import net.minecraft.item.ItemStack;
 import net.minecraft.item.ItemBlock;
 import net.minecraft.item.Item;
 import net.minecraft.entity.player.EntityPlayer;
@@ -29,12 +24,12 @@ import net.minecraft.block.Block;
 import java.util.Random;
 
 @Elementsdimensional_dungeon.ModElement.Tag
-public class MCreatorDarkIron extends Elementsdimensional_dungeon.ModElement {
-	@GameRegistry.ObjectHolder("dimensional_dungeon:darkiron")
+public class MCreatorDarkIronDrop extends Elementsdimensional_dungeon.ModElement {
+	@GameRegistry.ObjectHolder("dimensional_dungeon:darkirondrop")
 	public static final Block block = null;
 
-	public MCreatorDarkIron(Elementsdimensional_dungeon instance) {
-		super(instance, 36);
+	public MCreatorDarkIronDrop(Elementsdimensional_dungeon instance) {
+		super(instance, 39);
 	}
 
 	@Override
@@ -46,38 +41,15 @@ public class MCreatorDarkIron extends Elementsdimensional_dungeon.ModElement {
 	@SideOnly(Side.CLIENT)
 	@Override
 	public void registerModels(ModelRegistryEvent event) {
-		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("dimensional_dungeon:darkiron",
+		ModelLoader.setCustomModelResourceLocation(Item.getItemFromBlock(block), 0, new ModelResourceLocation("dimensional_dungeon:darkirondrop",
 				"inventory"));
-	}
-
-	@Override
-	public void generateWorld(Random random, int chunkX, int chunkZ, World world, int dimID, IChunkGenerator cg, IChunkProvider cp) {
-		boolean dimensionCriteria = false;
-		if (dimID == MCreatorDarklands.DIMID)
-			dimensionCriteria = true;
-		if (!dimensionCriteria)
-			return;
-		for (int i = 0; i < 13; i++) {
-			int x = chunkX + random.nextInt(16);
-			int y = random.nextInt(64) + 0;
-			int z = chunkZ + random.nextInt(16);
-			(new WorldGenMinable(block.getDefaultState(), 21, new com.google.common.base.Predicate<IBlockState>() {
-				public boolean apply(IBlockState blockAt) {
-					boolean blockCriteria = false;
-					IBlockState require;
-					if (blockAt.getBlock() == MCreatorEvenDarkerDarkium.block.getDefaultState().getBlock())
-						blockCriteria = true;
-					return blockCriteria;
-				}
-			})).generate(world, random, new BlockPos(x, y, z));
-		}
 	}
 
 	public static class BlockCustom extends Block {
 		public BlockCustom() {
 			super(Material.ROCK);
-			setRegistryName("darkiron");
-			setUnlocalizedName("darkiron");
+			setRegistryName("darkirondrop");
+			setUnlocalizedName("darkirondrop");
 			setSoundType(SoundType.GLASS);
 			setHarvestLevel("pickaxe", 2);
 			setHardness(20F);
@@ -88,18 +60,8 @@ public class MCreatorDarkIron extends Elementsdimensional_dungeon.ModElement {
 		}
 
 		@Override
-		public boolean isOpaqueCube(IBlockState state) {
-			return false;
-		}
-
-		@Override
 		public boolean isFlammable(IBlockAccess blockAccess, BlockPos pos, EnumFacing face) {
 			return true;
-		}
-
-		@Override
-		public void getDrops(NonNullList<ItemStack> drops, IBlockAccess world, BlockPos pos, IBlockState state, int fortune) {
-			drops.add(new ItemStack(MCreatorDarkIronDrop.block, (int) (2)));
 		}
 
 		@SideOnly(Side.CLIENT)
@@ -138,7 +100,7 @@ public class MCreatorDarkIron extends Elementsdimensional_dungeon.ModElement {
 				java.util.HashMap<String, Object> $_dependencies = new java.util.HashMap<>();
 				$_dependencies.put("entity", entity);
 				$_dependencies.put("world", world);
-				MCreatorDarkIronBlockDestroyedByPlayer.executeProcedure($_dependencies);
+				MCreatorDarkIronBlockDestroyedByPlayerDrop.executeProcedure($_dependencies);
 			}
 			return retval;
 		}
