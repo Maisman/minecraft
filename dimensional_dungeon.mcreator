@@ -482,14 +482,6 @@
       }
     },
     {
-      "name": "GutLoot",
-      "type": "loottable",
-      "sortid": 35,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {}
-    },
-    {
       "name": "DarkIronBlockDestroyedByPlayer",
       "type": "procedure",
       "sortid": 36,
@@ -516,17 +508,6 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
-    },
-    {
-      "name": "PlayerDied",
-      "type": "procedure",
-      "sortid": 37,
-      "compiles": true,
-      "locked_code": false,
-      "ids": {},
-      "metadata": {
-        "dependencies": []
-      }
     },
     {
       "name": "PlayerStackDamage",
@@ -678,6 +659,102 @@
       "compiles": true,
       "locked_code": false,
       "ids": {}
+    },
+    {
+      "name": "ChangeDimensionCommandExecuted",
+      "type": "procedure",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChangeDimension",
+      "type": "command",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChangeDimensionNether",
+      "type": "command",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChangeDimensionNetherCommandExecuted",
+      "type": "procedure",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChangeDimensionEnd",
+      "type": "command",
+      "sortid": 54,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChangeDimensionEndCommandExecuted",
+      "type": "procedure",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "ChangeDimensionDarklands",
+      "type": "command",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {}
+    },
+    {
+      "name": "ChangeDimensionDarklandsCommandExecuted",
+      "type": "procedure",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -697,8 +774,8 @@
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.darkaxe.name": "Dark Axe",
       "item.darkhoe.name": "Dark Hoe",
+      "item.darkaxe.name": "Dark Axe",
       "item.emerald_toolspickaxe.name": "Emerald_Tools Pickaxe",
       "tile.darkiron.name": "Dark Iron Ore",
       "tile.evendarkerdarkium.name": "Even Darker Darkium",
