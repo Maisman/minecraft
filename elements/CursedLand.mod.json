@@ -1,0 +1,56 @@
+{
+  "_fv": 5,
+  "_type": "dimension",
+  "definition": {
+    "portalFrame": {
+      "value": "CUSTOM:EvenDarkerDarkium"
+    },
+    "portalParticles": {
+      "value": "PORTAL"
+    },
+    "portalLuminance": 0.0,
+    "portalSound": {
+      "value": "block.portal.ambient"
+    },
+    "igniterName": "Cursed Land Portal Igniter",
+    "igniterTab": {
+      "value": "TOOLS"
+    },
+    "texture": "cursedland_portaligniter",
+    "portalTexture": "evendarkerdarkium",
+    "enablePortal": true,
+    "biomesInDimension": [
+      {
+        "value": "CUSTOM:CursedBiom"
+      }
+    ],
+    "worldGenType": "Normal world gen",
+    "mainFillerBlock": {
+      "value": "CUSTOM:CursedGrass"
+    },
+    "secondaryFillerBlock": {
+      "value": "Blocks.LIT_REDSTONE_ORE"
+    },
+    "tertiaryFillerBlock": {
+      "value": "CUSTOM:CursedGrass"
+    },
+    "fluidBlock": {
+      "value": "Blocks.IRON_ORE"
+    },
+    "airColor": {
+      "value": -16777216,
+      "falpha": 0.0
+    },
+    "canRespawnHere": true,
+    "hasFog": true,
+    "hasWeather": true,
+    "isDark": true,
+    "doesWaterVaporize": false,
+    "sleepResult": "ALLOW",
+    "hasSkyLight": false,
+    "imitateOverworldBehaviour": true,
+    "dimensionMusic": {
+      "value": ""
+    }
+  }
+}

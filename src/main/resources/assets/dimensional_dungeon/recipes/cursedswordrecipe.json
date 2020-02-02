@@ -1,0 +1,24 @@
+{
+  "group": "dimensional_dungeon",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "0",
+    "1",
+    "2"
+  ],
+  "key": {
+    "0": {
+      "item": "dimensional_dungeon:cursedingot"
+    },
+    "1": {
+      "item": "dimensional_dungeon:cursedingot"
+    },
+    "2": {
+      "item": "minecraft:stick"
+    }
+  },
+  "result": {
+    "item": "dimensional_dungeon:cursedsword",
+    "count": 1
+  }
+}

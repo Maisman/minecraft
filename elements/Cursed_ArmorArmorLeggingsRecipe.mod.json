@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:Cursed_ArmorArmor.legs"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:CursedIngot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "cursed_armorarmorleggingsrecipe",
+    "namespace": "mod"
+  }
+}

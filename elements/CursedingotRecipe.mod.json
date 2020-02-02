@@ -1,0 +1,45 @@
+{
+  "_fv": 5,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 5,
+    "recipeShapeless": false,
+    "recipeReturnStack": {
+      "value": "CUSTOM:CursedIngot"
+    },
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:DarkIronIngot"
+      },
+      {
+        "value": "CUSTOM:CursedGrass"
+      },
+      {
+        "value": "CUSTOM:DarkIronIngot"
+      },
+      {
+        "value": "CUSTOM:CursedGrass"
+      },
+      {
+        "value": "Items.IRON_INGOT"
+      },
+      {
+        "value": "CUSTOM:CursedGrass"
+      },
+      {
+        "value": "CUSTOM:DarkIronIngot"
+      },
+      {
+        "value": "CUSTOM:CursedGrass"
+      },
+      {
+        "value": "CUSTOM:DarkIronIngot"
+      }
+    ],
+    "smeltingXPReward": 0.0,
+    "smeltingRetstackSize": 1,
+    "name": "cursedingotrecipe",
+    "namespace": "mod"
+  }
+}
